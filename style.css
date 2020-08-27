@@ -146,6 +146,54 @@ span.extend {
   margin-right: 5px;
 }
 
+.contact a {
+    color: initial;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .col-2 {
+        display: none;
+    }
+
+    .col-1 {
+        padding: 10px 16px;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .block-content {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .observer {
+        text-align: center;
+    }
+
+    .group {
+        flex-direction: column;
+    }
+
+    a.cta-button {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+        text-align: center;
+    }
+}
+
 
 
 
